@@ -1,21 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
 
-const footerColumns = [
-	{
-		title: 'First column',
-		links: ['First page', 'Second page', 'Third', 'Fourth'],
-	},
-	{
-		title: 'Second',
-		links: ['Fifth page', 'Sixth page', 'Eighth'],
-	},
-	{
-		title: 'Third',
-		links: ['Fifth page', 'Sixth page', 'Eighth'],
-	},
-]
-
 const Footer: React.FC = () => {
 	return (
 		<footer className='bg-primary py-12 md:py-16'>

@@ -22,7 +22,7 @@ function TestimonialCard({
 					<p className='text-sm text-gray-600'>{description}</p>
 				</div>
 			</div>
-			<p className='text-accent mb-6 leading-relaxed italic'>"{quote}"</p>
+			<p className='text-accent mb-6 leading-relaxed italic'>{quote}</p>
 		</div>
 	)
 }
